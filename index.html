@@ -1,16 +1,16 @@
 <!--Unit 4 Project
 Requirements
-[ ] Three Distinct CSS font-family Declarations
-[ ] Five CSS Rules
-[ ] An Unordered **or** Ordered List (<ul> or <ol>)
-[ ] Three Images
+[yes] Three Distinct CSS font-family Declarations
+[yes] Five CSS Rules
+[yes] An Unordered **or** Ordered List (<ul> or <ol>)
+[yes] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Fill Text with Image Background 
+[yes] Feature 1 - Fill Text with Image Background 
 [ no ] Feature 2 - Change the <li> markers
 [ no ] Feature 3 - Change the Favicon
 [ no ] Feature 4 - Use Google Font or Uploaded Font
-[ no ] Feature 5 - Change the Cursor
+[yes] Feature 5 - Change the Cursor
 -->
 
 <!DOCTYPE html>
@@ -26,24 +26,30 @@ h1 {  color: transparent;
   background-clip: text;
   background-color: green; /* fallback text color if image fails to load */
 font-size: 60px;
-font-family: 'Times New Roman', Times, serif;
-}
+font-family: 'Times New Roman', Times, serif;}
 
-h3 {
-  font-family: cursive;
-}
+h3 {color: crimson;}
 
-body {
-  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyNXR6ZmFkeXk3c3MzYXFrbHFraGp5NmdseXl3MGw1MDd6NDhhZHN0NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6YNgoTEPs6vZe/200w.gif);
-background-size: cover;
-}
+h3 {font-family: cursive;}
+
+body {background-image: url(https://i.pinimg.com/originals/1f/52/0a/1f520a768eb59af01b15020a9c37c259.gif);
+background-size: cover ;}
+
+p{font-size: 2em;}
+
+#mom {font-family: cursive;}
+
+#plum {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+p {color: darkblue;}
 
 .pink {font-style: italic;}
 
-body{
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='53' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🎄</text></svg>") 16 0,auto; /*!emojicursor.app*/
-}
-  </style>
+.rob {font-family: sans-serif}
+
+body{cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='53' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🎄</text></svg>") 16 0,auto; /*!emojicursor.app*/}
+ 
+ </style>
 </head>
 <body>
  
@@ -56,7 +62,7 @@ body{
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUkR4klLzpIEgdJeAC-7UoMIxq2rGq5yuz0kaP-VEjA&s=10" alt="alien" width="250"> 
   <br><br>
 <ol>
-<li>Space</li>
+<li class="rob">Space</li>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNLNrXlFxToNjyRArQKlmXY12g5nZpdfeTyAgtbWDJcA&s=10" alt="space" width="400"><br>
 
 </ol> 
@@ -68,13 +74,13 @@ body{
   </p>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm_H8Bc2m3wpQnnEZyoawVtRkWyjMmMaznKhduDPLJ-g&s=10" alt="barbies house" width="400"
   <br><br>
-<h4>Why?</h4>
+<h4 id="mom">Why?</h4>
 <ol>
-<li>Closet</li>
+<li class="rob">Closet</li>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVymG8qWMCs-v3umqlE7kAkn9G5tpe1as9TsPC3Kqx7Q&s=10" alt="closet" width="400"><br>
 <br>
 
-<li>Barbie</li>
+<li class="rob">Barbie</li>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NyPGeeE_iGA?si=u7sVJPTUqVdriw7N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -84,16 +90,16 @@ body{
 <h3>Third</h3>
   <p class="pink">A Chef</p>\
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMKio9rdtHSwrHDXwTZP-36Gz3PxTFZkY37knsr7ihkw&s=10" alt="chef" width="400"> <br>
-  <h4>Why?</h4>
+  <h4 id="plum">Why?</h4>
  <ol>
-  <li>Sushi</li>
+  <li class="rob">Sushi</li>
  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf5brkNFuzlaPEAfeA0Fp8FwHGqmq4CajKxZ5cQcNtWg&s=10" alt="sushi" width="400"> <br>
   <br>
 
-  <li>Ice cream</li>
+  <li class="rob">Ice cream</li>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLu0Tv134N2KutrF0xMMd7d8FGJ43luI_IyiEZhefYnw&s=10" alt="icecream" width="400"> <br>
 <br>
-<li>Taco</li>
+<li class="rob">Taco</li>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd8jrXdF802v5Zqvnpi1gdlh33dFnBjvuVA2twmxT02g&s=10" alt="hamburger" width="400"> <br>
 </ol>
  
